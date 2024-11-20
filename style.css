@@ -87,7 +87,7 @@ form button:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #c0392b;
+    background-color: #ff609d;
     color: white;
 }
 
@@ -96,7 +96,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #df0873;
     color: #fff;
 }
 
