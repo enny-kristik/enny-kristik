@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #c0392b;
+    background-color: #df0873;
     color: white;
     padding: 15px 20px;
     text-align: center;
@@ -28,7 +28,7 @@ header nav ul li a {
 }
 
 .banner {
-    background-color: #e74c3c;
+    background-color: #df0873;
     color: white;
     padding: 50px 20px;
     text-align: center;
