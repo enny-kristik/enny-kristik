@@ -40,7 +40,7 @@ header nav ul li a {
 
 .image-grid {
     display: flex;
-    gap: 15px;
+    gap: flex;
     flex-wrap: wrap;
 }
 
