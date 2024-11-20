@@ -72,7 +72,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #c0392b;
+    background-color: #df0873;
     color: white;
     padding: 10px;
     border: none;
@@ -81,7 +81,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #a93226;
+    background-color: #df0873;
 }
 
 footer {
