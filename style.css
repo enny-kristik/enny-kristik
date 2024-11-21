@@ -1,0 +1,200 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: #4caf50;
+}
+
+.cta-btn {
+    background-color: #ff5722;
+}
+
+.login-btn, .cta-btn {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+.cta-btn:hover {
+    background-color: #e64a19;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url(imagess.jpg);
+}
+
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.hero h3 {
+    font-size: 2rem;
+    color: black;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.hero .cta-btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+.image-mockup img {
+    width: 200px;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.trusted-by {
+    text-align: center;
+    padding: 40px 20px;
+    background-image: url(imagess1.jpg);
+}
+
+.trusted-by .logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trusted-by img {
+    width: 270px;
+    height: auto;
+}
+
+.trusted-by .cta-btn {
+    background-color: #ff5722;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .trusted-by .logos {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero h3 {
+        font-size: 1.2rem;
+    }
+
+    .hero .cta-btn {
+        font-size: 1rem;
+    }
+
+    .trusted-by img {
+        width: 308px;
+        margin: 5px;
+    }
+}
