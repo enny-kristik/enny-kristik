@@ -57,4 +57,126 @@
         });
     </script>
 </body>
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etalase Jualan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-details {
+            padding: 15px;
+        }
+        .product-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 0;
+        }
+        .product-price {
+            color: #28a745;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+        .product-description {
+            font-size: 0.9em;
+            color: #555;
+            margin: 10px 0;
+        }
+        .add-to-cart-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .add-to-cart-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Etalase Jualan</h1>
+        <div class="product-grid">
+            <!-- Produk 1 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250" alt="Produk 1" class="product-image">
+                <div class="product-details">
+                    <p class="product-name">Produk 1</p>
+                    <p class="product-description">Deskripsi singkat tentang produk 1.</p>
+                    <p class="product-price">Rp 100.000</p>
+                    <button class="add-to-cart-btn">Tambah ke Keranjang</button>
+                </div>
+            </div>
+            <!-- Produk 2 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250" alt="Produk 2" class="product-image">
+                <div class="product-details">
+                    <p class="product-name">Produk 2</p>
+                    <p class="product-description">Deskripsi singkat tentang produk 2.</p>
+                    <p class="product-price">Rp 150.000</p>
+                    <button class="add-to-cart-btn">Tambah ke Keranjang</button>
+                </div>
+            </div>
+            <!-- Produk 3 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250" alt="Produk 3" class="product-image">
+                <div class="product-details">
+                    <p class="product-name">Produk 3</p>
+                    <p class="product-description">Deskripsi singkat tentang produk 3.</p>
+                    <p class="product-price">Rp 200.000</p>
+                    <button class="add-to-cart-btn">Tambah ke Keranjang</button>
+                </div>
+            </div>
+            <!-- Produk 4 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250" alt="Produk 4" class="product-image">
+                <div class="product-details">
+                    <p class="product-name">Produk 4</p>
+                    <p class="product-description">Deskripsi singkat tentang produk 4.</p>
+                    <p class="product-price">Rp 120.000</p>
+                    <button class="add-to-cart-btn">Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
