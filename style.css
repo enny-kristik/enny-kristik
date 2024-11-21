@@ -38,15 +38,15 @@ body {
 }
 
 .login-btn {
-    background-color: #4caf50;
+    background-color: #ffffff;
 }
 
 .cta-btn {
-    background-color: #ff5722;
+    background-color: #ffffff;
 }
 
 .login-btn, .cta-btn {
-    color: #fff;
+    color: #ff008c;
     border: none;
     cursor: pointer;
     transition: background 0.3s;
