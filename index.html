@@ -1,73 +1,60 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ENNY-kristik</title>
-    <link rel="title" href="style.css">
+    <title>ENNY KRISTIK</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1> ENNY KRISTIK </h1>
         <nav class="navbar">
-            <h1>sulaman kristik</h1>
+            <h1>ENNY KRISTIK</h1>
             <div class="navbar-links">
                 <a href="https://rahmadpurbadorm.github.io/blog/" class="login-btn">Baca Selengkapnya</a>
                 <a href="https://wa.me/6285270317187" class="login-btn">Contact Us</a>
-                <a href="https://maps.app.goo.gl/D4FyfVbKaRSNtx6b8" class="cta-btn">Maps</a>
-                <link rel="navbar-links" href="style.css">
+                <a href="https://maps.app.goo.gl/YUC5pd3AjRuMDqPG9" class="cta-btn">Maps</a>
             </div>
             <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        </nav>
     </header>
 
-    <section id="home" class="banner">
-        <h2>Selamat Datang di Situs Tekstil Tradisional</h2>
-        <p>Menampilkan kerajinan tangan yang memadukan tradisi dan keindahan.</p>
-    </section>
-
-    <section id="gallery" class="gallery">
-        <h2>Galeri</h2>
-        <div class="image-grid">
-            <div class="image-item">
-                <img src="enny1foto.jpg" width="300" height="auto" alt="Tekstil Merah dan Putih">
-                <p>Kain merah dan putih dengan pola rumit buatan tangan.</p>
+    <main>
+        <section class="hero">
+            <h2>Mau Cari Kost Murah?</h2>
+            <h3>Disini Ajaaaa....</h3>
+            <p>Fasilitas Lengkap Dan Harga Terjangkau</p>
+            <a href="https://rahmadpurbadorm.github.io/pricelist/" class="cta-btn">Pesan disini!</a>
+            <div class="image-mockup">
+                <img src="ENNY 2.png" alt="Sample Room Image">
             </div>
-            <div class="image-item">
-                <img src="enny2foto.jpg" width="300" height="auto" alt="Tekstil Coklat dan Kuning bunga">
-                <p>Desain coklat dan kuning yang elegan dengan motif tradisional.</p>
-            </div>
-            <div class="image-item">
-                <img src="enny3foto.jpg" width="300" height="auto" alt="Tekstil Coklat dan Kuning">
-                <p>Desain .</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="about">
-        <h2>Tentang Kami</h2>
-        <p>Ceritakan perjalanan Anda dalam membuat tekstil ini, inspirasi yang digunakan, dan teknik yang dikuasai untuk menciptakan karya seni ini.</p>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Kontak</h2>
-        <form>
-            <label for="name">Nama:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Pesan:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Kirim</button>
-        </form>
-    </section>
+        <section class="trusted-by">
+            <p>Tampilan halaman depan kos, kamar tidur, dan rooftop</p>
+            <div class="logos">
+                <img src="https://enny-kristik.github.io/enny-kristik/enny1foto.jpg" alt="Local Business Partner">
+                <img src="https://enny-kristik.github.io/enny-kristik/enny2foto.jpg" alt="University Housing Approved">
+                <img src="https://enny-kristik.github.io/enny-kristik/enny3foto.jpg" alt="Popular Student Choice">
+                <a href="https://rahmadpurbadorm.github.io/viewmore/" class="cta-btn">View More</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Kerajinan Tekstil Indonesia. Semua Hak Dilindungi.</p>
+        <p>&copy; 2024 RahmadPurba.DORM. All rights reserved.</p>
+        <p>Contact us at: <a href="mailto:info@rahmadpurba.dorm">info@rahmadpurba.dorm</a></p>
     </footer>
+
+    <script>
+        // JavaScript untuk toggle menu mobile
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navbarLinks = document.querySelector('.navbar-links');
+
+        menuToggle.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
