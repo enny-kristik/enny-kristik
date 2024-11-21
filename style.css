@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #ff008c;
+    color: #ff5aa7;
 }
 
 .navbar {
@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #ff008c;
+    background-color: #ff5aa7;
     color: #fff;
 }
 
@@ -38,26 +38,26 @@ body {
 }
 
 .login-btn {
-    background-color: #ff008c;
+    background-color: #4caf50;
 }
 
 .cta-btn {
-    background-color: #ffffff;
+    background-color: #ff5722;
 }
 
 .login-btn, .cta-btn {
-    color: #ff008c;
+    color: #fff;
     border: none;
     cursor: pointer;
     transition: background 0.3s;
 }
 
 .login-btn:hover {
-    background-color: #ff008c;
+    background-color: #45a049;
 }
 
 .cta-btn:hover {
-    background-color: #ff008c;
+    background-color: #e64a19;
 }
 
 .menu-toggle {
@@ -65,7 +65,7 @@ body {
     font-size: 1.5rem;
     background: none;
     border: none;
-    color: #ff008c;
+    color: #fff;
 }
 
 .hero {
