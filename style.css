@@ -88,6 +88,11 @@ body {
     color: black;
 }
 
+.hero h4 {
+    font-size: 2rem;
+    color: black;
+}
+
 .hero p {
     font-size: 20px;
     margin-bottom: 20px;
