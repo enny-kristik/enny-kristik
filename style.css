@@ -12,6 +12,9 @@ body {
     color: #ff5aa7;
 }
 
+.container {
+    color: #e00561;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
