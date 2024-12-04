@@ -15,6 +15,7 @@ body {
 .container {
     color: #e00561;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -36,23 +37,23 @@ body {
 .navbar-links a {
     text-decoration: none;
     color: #fff;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-.login-btn {
-    background-color: #e00561;
-}
-
-.cta-btn {
+.navbar-links a:hover {
     background-color: #e00561;
 }
 
 .login-btn, .cta-btn {
+    background-color: #e00561;
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: background 0.3s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .login-btn:hover {
@@ -61,6 +62,11 @@ body {
 
 .cta-btn:hover {
     background-color: #e64a19;
+}
+
+.login-btn:focus, .cta-btn:focus {
+    outline: 3px solid #ff5722;
+    outline-offset: 2px;
 }
 
 .menu-toggle {
@@ -74,9 +80,10 @@ body {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background-image: url(imagess.jpg);
+    background-image: url('path-to-your-image/imagess.jpg'); /* Ensure the correct image path */
+    background-size: cover;
+    background-position: center;
 }
-
 
 .hero h2 {
     font-size: 2.5rem;
@@ -100,7 +107,7 @@ body {
 }
 
 .image-mockup img {
-    width: 200px;
+    width: 100%;
     max-width: 600px;
     border-radius: 10px;
     margin-top: 20px;
@@ -109,7 +116,9 @@ body {
 .trusted-by {
     text-align: center;
     padding: 40px 20px;
-    background-image: url(imagess1.jpg);
+    background-image: url('path-to-your-image/imagess1.jpg'); /* Ensure the correct image path */
+    background-size: cover;
+    background-position: center;
 }
 
 .trusted-by .logos {
@@ -140,7 +149,7 @@ footer a {
     text-decoration: none;
 }
 
-/* Responsivitas */
+/* Responsiveness */
 @media (max-width: 768px) {
     .navbar-links {
         display: none;
@@ -179,10 +188,6 @@ footer a {
     }
 }
 
- .logos {
-    justify-content: center;
- }
-
 @media (max-width: 480px) {
     .navbar {
         flex-direction: column;
@@ -206,6 +211,7 @@ footer a {
     }
 }
 
+/* WhatsApp Icon */
 .whatsapp-icon {
     position: fixed;
     bottom: 20px;
@@ -222,3 +228,4 @@ footer a {
     color: white;
     font-size: 30px;
 }
+
